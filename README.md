@@ -7,12 +7,12 @@ The json parsing is specifically designed for dataautogpt3/flan1m-alpaca-uncenso
 ## Model Configuration
 The script is configured to work with a model that has the following settings in its model file:
 
-FROM *model*
-PARAMETER stop </edited_text>
-PARAMETER stop </edited_Text>
-PARAMETER stop </Edited_Text>
-PARAMETER stop </Edited_text>
-PARAMETER stop </EditedText>
+- FROM *model*
+- PARAMETER stop </edited_text>
+- PARAMETER stop </edited_Text>
+- PARAMETER stop </Edited_Text>
+- PARAMETER stop </Edited_text>
+- PARAMETER stop </EditedText>
 
 SYSTEM *Translating system message must include -put translated text in <edited_text> tags.-*
 
