@@ -13,8 +13,7 @@ The script is configured to work with a model that has the following settings in
 - PARAMETER stop </Edited_Text>
 - PARAMETER stop </Edited_text>
 - PARAMETER stop </EditedText>
-
-SYSTEM *Translating system message must include -put translated text in <edited_text> tags.-*
+- SYSTEM *Translating system message must include -put translated text in <edited_text> tags.-*
 
 These parameters ensure the model operates with specific constraints tailored to the script.
 
